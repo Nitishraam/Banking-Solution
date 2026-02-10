@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly</title>
+    <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./style.css">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+      <!-- <div id="loader">
+  <span class="loader"></span>
+</div> -->
+
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="./index.html" class="logo">
+            <img class="logo2" src="./Images/logo.png" alt="RedPeak Logo"/>
+        </a>        
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="./index.html" class="nav-link active">Home</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">About</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">Services</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">Blog</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">Contact</a></li>
+                <li><a href="./Pages/error.html" class="signin-btn">Sign In</a></li>
+            </ul>
+
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="banking-hero-v2">
+    <div class="hero-bg"></div>
+    
+    <div class="hero-container">
+        <!-- Main Content Center -->
+        <div class="hero-main-content">
+            <div class="badge">Digital Banking 2026</div>
+            <h1 class="hero-title">
+                Smart <span class="accent">Banking</span><br>for Modern Life
+            </h1>
+            <p class="hero-subtitle">
+                Secure digital banking platform built for the future. Instant transfers, real-time insights, unbreakable security.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="./Pages/error.html" class="btn-primary">Open Account</a>
+                <a href="./Pages/error.html" class="btn-outline">View Features</a>
+            </div>
+        </div>
+        
+        <!-- Stats Row -->
+        <div class="stats-row">
+            <div class="stat-item">
+                <div class="stat-number">24K</div>
+                <div class="stat-label2">Transactions/sec</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label2">Secure</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">0.1s</div>
+                <div class="stat-label2">Response Time</div>
+            </div>
+        </div>
+        
+        <!-- Cards Grid -->
+        <div class="cards-grid">
+            <div class="service-card">
+                <div class="card-icon">💳</div>
+                <div class="card-title">Cards</div>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">📱</div>
+                <div class="card-title">Mobile</div>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">💰</div>
+                <div class="card-title">Savings</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="modern-solutions-hub">
+    <div class="hub-background">
+        <div class="floating-elements">
+            <div class="float-circle c1"></div>
+            <div class="float-circle c2"></div>
+            <div class="float-circle c3"></div>
+        </div>
+    </div>
+    
+    <!-- Header with AOS -->
+    <div class="hub-header" data-aos="fade-down" data-aos-duration="1000">
+        <div class="status-badge">NextGen Banking</div>
+        <h2 class="hub-title">Future-Proof <span class="dynamic-gradient">Banking</span></h2>
+        <p class="hub-subtitle">Enterprise platform with AI intelligence, zero-downtime architecture, and global scalability</p>
+    </div>
+    
+    <!-- Zigzag Layout -->
+    <div class="zigzag-layout">
+        <!-- Item 1 - Left Image -->
+        <div class="zig-item reverse" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+            <div class="zig-image">
+                <div class="image-frame banking-app">
+                    <div class="app-glow"></div>
+                    <div class="app-screen">
+                      <img class="im" src="./Images/h1.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="zig-content">
+                <h3 class="content-main">Intelligent Core Banking</h3>
+                <p class="content-desc">AI-powered platform processing 50K+ transactions per second with predictive fraud detection</p>
+                <div class="tech-stack">
+                    <span class="tech-tag ai">AI/ML</span>
+                    <span class="tech-tag cloud">Cloud Native</span>
+                    <span class="tech-tag secure">Zero Trust</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Item 2 - Right Image -->
+        <div class="zig-item" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+            <div class="zig-content">
+                <h3 class="content-main">Unified Payment Hub</h3>
+                <p class="content-desc">Single API for 300+ payment methods across 200 countries with 0.05s settlement time</p>
+                <div class="tech-stack">
+                    <span class="tech-tag global">Global Rails</span>
+                    <span class="tech-tag fast">Real-time</span>
+                    <span class="tech-tag pci">PCI L1</span>
+                </div>
+            </div>
+            <div class="zig-image">
+                <div class="image-frame payment-dashboard">
+                    <div class="app-glow"></div>
+                    <div class="app-screen">
+                      <img class="im" src="./Images/h2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Item 3 - Left Image -->
+        <div class="zig-item reverse" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
+            <div class="zig-image">
+                <div class="image-frame analytics">
+                    <div class="app-glow"></div>
+                   <div class="app-screen">
+                      <img class="im" src="./Images/h3.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="zig-content">
+                <h3 class="content-main">AI Analytics Engine</h3>
+                <p class="content-desc">Real-time behavioral analytics with 98% fraud detection accuracy and automated compliance</p>
+                <div class="tech-stack">
+                    <span class="tech-tag predict">Predictive</span>
+                    <span class="tech-tag realtime">Live Data</span>
+                    <span class="tech-tag scale">Petabyte Scale</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="about-banking">
+    <div class="about-container">
+        <!-- Left Content -->
+        <div class="about-content" data-aos="fade-right" data-aos-delay="100">
+            <div class="section-badge">Why Choose Us</div>
+            <h2 class="about-title">Enterprise Banking <span class="highlight">Platform</span></h2>
+            <p class="about-desc">
+                Built for the world's leading financial institutions. Our platform powers 500+ banks across 75 countries 
+                with 99.999% uptime and processes $2.4 trillion annually.
+            </p>
+            
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">🔒</div>
+                    <span>ISO 27001 Certified</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <span>50K TPS Capacity</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌍</div>
+                    <span>200+ Countries</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <span>AI Fraud Detection</span>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Banks Served</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">$2.4T</div>
+                    <div class="stat-label">Annual Volume</div>
+                </div>
+            </div>
+            
+            <a href="./Pages/error.html" class="cta-button">Request Demo</a>
+        </div>
+        
+        <!-- Right Image with <img> tag -->
+        <div class="about-image" data-aos="fade-left" data-aos-delay="300">
+            <img src="./Images/h4.webp" 
+                 alt="Modern Banking Dashboard Interface" 
+                 class="main-dashboard-image">
+            <div class="image-overlay"></div>
+           
+        </div>
+    </div>
+</section>
+
+
+<section class="testimonials-zone">
+    <div class="zone-container">
+        <!-- Header with AOS -->
+        <div class="zone-header" data-aos="fade-down" data-aos-duration="1000">
+            <span class="zone-badge">Trusted Worldwide</span>
+            <h2 class="zone-main-title">What Banks Say <span class="zone-accent">About Us</span></h2>
+            <p class="zone-subtitle">Join 500+ leading financial institutions using our platform daily</p>
+        </div>
+
+        <!-- Testimonials Grid -->
+        <div class="testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-top">
+                    <div class="client-avatar">HS</div>
+                    <div class="client-info">
+                        <div class="client-name">HDFC Securities</div>
+                        <div class="client-role">Head of Digital Banking</div>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    "Transformed our entire banking infrastructure. 50K TPS capacity with zero downtime for 18 months straight."
+                </div>
+                <div class="rating-stars">
+                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card featured-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-badge">Featured</div>
+                <div class="card-top">
+                    <div class="client-avatar large">IC</div>
+                    <div class="client-info">
+                        <div class="client-name">ICICI Bank</div>
+                        <div class="client-role">Chief Technology Officer</div>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    "Best platform we've ever used. Reduced fraud by 97% and processing costs by 68%. Enterprise-ready excellence."
+                </div>
+                <div class="rating-stars">
+                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-top">
+                    <div class="client-avatar">SB</div>
+                    <div class="client-info">
+                        <div class="client-name">SBI Digital</div>
+                        <div class="client-role">VP Operations</div>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    "Lightning-fast integration with our legacy systems. Deployment in just 6 weeks with full compliance."
+                </div>
+                <div class="rating-stars">
+                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Banner -->
+        <div class="stats-banner" data-aos="zoom-in" data-aos-delay="400">
+            <div class="stat-item">
+                <div class="stat-figure">500+</div>
+                <div class="stat-desc">Banks Using</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-figure">$2.4T</div>
+                <div class="stat-desc">Processed Yearly</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <div class="stat-figure">99.999%</div>
+                <div class="stat-desc">Uptime Guarantee</div>
+            </div>
+        </div>
+
+       
+    </div>
+</section>
+
+<section class="pricing-platform">
+    <div class="pricing-wrapper">
+        <!-- Background Pattern -->
+        <div class="pricing-bg-pattern"></div>
+        
+        <!-- Section Header -->
+        <div class="pricing-header" data-aos="fade-down" data-aos-duration="1200">
+            <span class="pricing-badge">Simple Transparent Pricing</span>
+            <h2 class="pricing-title">Scale Without <span class="pricing-highlight">Limits</span></h2>
+            <p class="pricing-subtitle">
+                Flexible plans designed for banks of all sizes. Pay only for what you use with 
+                enterprise-grade features included in every tier.
+            </p>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing-cards-grid" data-aos="fade-up" data-aos-delay="200">
+            <!-- Starter Plan -->
+            <div class="pricing-card starter-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="card-header">
+                    <div class="plan-name">Starter</div>
+                    <div class="plan-price">
+                        <span class="price-amount">$99</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                </div>
+                <div class="card-features">
+                    <div class="feature-check">✅ 10K Transactions</div>
+                    <div class="feature-check">✅ Basic Analytics</div>
+                    <div class="feature-check">✅ Email Support</div>
+                    <div class="feature-check disabled">❌ Advanced Fraud</div>
+                </div>
+                <a href="./Pages/error.html" class="card-button secondary">Get Started</a>
+            </div>
+
+            <!-- Business Plan (Featured) -->
+            <div class="pricing-card business-card featured-plan" data-aos="zoom-in" data-aos-delay="400">
+                <div class="popular-badge">Most Popular</div>
+                <div class="card-header">
+                    <div class="plan-name">Business</div>
+                    <div class="plan-price">
+                        <span class="price-amount highlighted">$299</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                </div>
+                <div class="card-features">
+                    <div class="feature-check">✅ 100K Transactions</div>
+                    <div class="feature-check">✅ AI Fraud Detection</div>
+                    <div class="feature-check">✅ Priority Support</div>
+                    <div class="feature-check">✅ API Access</div>
+                    <div class="feature-check">✅ Custom Reports</div>
+                </div>
+                <a href="./Pages/error.html" class="card-button primary">Start Free Trial</a>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="pricing-card enterprise-card" data-aos="zoom-in" data-aos-delay="500">
+                <div class="card-header">
+                    <div class="plan-name">Enterprise</div>
+                    <div class="plan-price">
+                        <span class="price-amount">Custom</span>
+                        <span class="price-period">Contact Us</span>
+                    </div>
+                </div>
+                <div class="card-features">
+                    <div class="feature-check">✅ Unlimited Transactions</div>
+                    <div class="feature-check">✅ Dedicated Manager</div>
+                    <div class="feature-check">✅ On-Premise Option</div>
+                    <div class="feature-check">✅ White-label</div>
+                    <div class="feature-check">✅ 24/7 Support</div>
+                </div>
+                <a href="./Pages/error.html" class="card-button outline">Contact Sales</a>
+            </div>
+        </div>
+
+        <!-- Feature Comparison Image -->
+        <div class="comparison-section" data-aos="fade-up" data-aos-delay="600">
+            <img src="./Images/h5.webp" 
+                 alt="Banking Platform Feature Comparison" 
+                 class="comparison-image">
+            <div class="comparison-overlay">
+                <div class="overlay-content">
+                    <h3>Everything Included</h3>
+                    <p>Every plan includes enterprise-grade security, 99.999% uptime SLA, and SOC 2 compliance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="features-showcase">
+    <div class="showcase-container">
+        <!-- Left Image -->
+        <div class="showcase-image-left" data-aos="fade-right" data-aos-duration="1000">
+            <img src="./Images/h6.webp" 
+                 alt="Banking Analytics Dashboard" 
+                 class="feature-image">
+            <div class="image-badge">Live Demo</div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="showcase-content-right" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+            <div class="content-badge">Platform Power</div>
+            <h3 class="content-title">Real-Time <span class="accent-color">Analytics</span></h3>
+            <p class="content-text">
+                Monitor every transaction instantly with AI-powered insights. Track spending patterns, 
+                detect anomalies, and predict cash flow with 98.7% accuracy.
+            </p>
+            <div class="feature-highlights">
+                <div class="highlight-item">
+                    <span class="highlight-icon">📈</span>
+                    <span>50+ Metrics</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">⚡</span>
+                    <span>0.2s Updates</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">🧠</span>
+                    <span>AI Predictions</span>
+                </div>
+            </div>
+            <a href="./Pages/error.html" class="action-link">Explore Analytics →</a>
+        </div>
+    </div>
+
+    <!-- Reverse Layout -->
+    <div class="showcase-container reverse">
+        <!-- Left Content -->
+        <div class="showcase-content-left" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <div class="content-badge">Security First</div>
+            <h3 class="content-title">Unbreakable <span class="accent-color">Security</span></h3>
+            <p class="content-text">
+                Military-grade encryption with biometric authentication and real-time threat detection. 
+                Zero security breaches across 2.4M daily transactions.
+            </p>
+            <div class="feature-highlights">
+                <div class="highlight-item">
+                    <span class="highlight-icon">🔒</span>
+                    <span>End-to-End</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">🛡️</span>
+                    <span>Zero Trust</span>
+                </div>
+                <div class="highlight-item">
+                    <span class="highlight-icon">📱</span>
+                    <span>Biometrics</span>
+                </div>
+            </div>
+            <a href="./Pages/error.html" class="action-link">Security Details →</a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="showcase-image-right" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+            <img src="./Images/h7.webp" 
+                 alt="Secure Banking Interface" 
+                 class="feature-image">
+            <div class="image-badge security">Protected</div>
+        </div>
+    </div>
+</section>
+
+
+<section class="performance-metrics">
+    <div class="metrics-container">
+        <!-- Hero Stats Display -->
+        <div class="hero-stats" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="stat-hero">
+                <div class="stat-main">
+                    <span class="stat-prefix">Process</span>
+                    <div class="stat-counter">$<span>2.4</span>T</div>
+                    <span class="stat-suffix">Annually</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-main">
+                    <div class="stat-counter"><span>50</span>K</div>
+                    <span class="stat-suffix">TPS</span>
+                </div>
+            </div>
+            <h2 class="metrics-title">Enterprise <span class="gradient-title">Performance</span></h2>
+            <p class="metrics-subtitle">Built for scale. Zero compromises on speed, reliability, and security.</p>
+        </div>
+
+        <!-- Performance Cards -->
+        <div class="performance-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="perf-card speed" data-aos="fade-right">
+                <div class="card-icon">⚡</div>
+                <h3>Lightning Speed</h3>
+                <p>0.08s average response time across 50K TPS. 3x faster than legacy systems.</p>
+                <div class="perf-meter">
+                    <div class="meter-fill speed-fill"></div>
+                </div>
+            </div>
+
+            <div class="perf-card uptime" data-aos="fade-up">
+                <div class="card-icon">🛡️</div>
+                <h3>Perfect Uptime</h3>
+                <p>99.999% SLA across 2+ years. Zero downtime during peak Black Friday loads.</p>
+                <div class="perf-meter">
+                    <div class="meter-fill uptime-fill"></div>
+                </div>
+            </div>
+
+            <div class="perf-card secure" data-aos="fade-left">
+                <div class="card-icon">🔒</div>
+                <h3>Bank-Grade Security</h3>
+                <p>ISO 27001, PCI DSS L1, SOC 2. Zero breaches across 2.4M daily transactions.</p>
+                <div class="perf-meter">
+                    <div class="meter-fill secure-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Dashboard Mockup -->
+        <div class="dashboard-preview" data-aos="fade-up" data-aos-delay="400">
+            <img src="./Images/h8.webp" 
+                 alt="Live Banking Dashboard" class="dashboard-image">
+            <div class="dashboard-overlay">
+                <div class="overlay-stats">
+                    <div class="live-stat">
+                        <span class="stat-label">Live TPS</span>
+                        <span class="stat-value">47,892</span>
+                    </div>
+                    <div class="live-stat">
+                        <span class="stat-label">Success Rate</span>
+                        <span class="stat-value">99.998%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final CTA -->
+        <div class="metrics-cta" data-aos="zoom-in" data-aos-delay="500">
+            <h3>Ready to see it live?</h3>
+            <a href="./Pages/error.html" class="cta-button">Request Live Demo</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="faq-section">
+    <div class="faq-container">
+        <!-- Header -->
+        <div class="faq-header" data-aos="fade-down">
+            <span class="faq-badge">Get Answers Fast</span>
+            <h2 class="faq-title">Frequently Asked <span class="faq-accent">Questions</span></h2>
+            <p class="faq-subtitle">Everything you need to know about our enterprise banking platform</p>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="faq-accordion">
+            <!-- FAQ 1 -->
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="faq-question">
+                    <h3>How long does implementation take?</h3>
+                    <div class="faq-icon">+</div>
+                </div>
+                <div class="faq-answer">
+                    <p>Full production deployment in <strong>14 days</strong> for cloud deployments. Our automated setup scripts and pre-built API connectors make integration with existing core banking systems seamless. Legacy migration available in 6-8 weeks.</p>
+                    <div class="faq-meta">
+                        <span class="meta-tag">Deployment</span>
+                        <span class="meta-time">Updated 2 hours ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="faq-question">
+                    <h3>What security certifications do you have?</h3>
+                    <div class="faq-icon">+</div>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>ISO 27001, SOC 2 Type II, PCI DSS Level 1</strong> certified. Military-grade AES-256 encryption, biometric authentication, and real-time AI threat detection. Zero security incidents across 2.4M daily transactions.</p>
+                    <div class="faq-meta">
+                        <span class="meta-tag security">Security</span>
+                        <span class="meta-time">Updated yesterday</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="faq-question">
+                    <h3>What's your transaction capacity?</h3>
+                    <div class="faq-icon">+</div>
+                </div>
+                <div class="faq-answer">
+                    <p>Scales to <strong>50K TPS</strong> (transactions per second) with 99.999% uptime SLA. Horizontal auto-scaling handles peak Black Friday loads automatically. Processes $2.4T annually for 500+ banks.</p>
+                    <div class="faq-meta">
+                        <span class="meta-tag">Performance</span>
+                        <span class="meta-time">Updated 1 day ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="faq-question">
+                    <h3>Do you support multiple currencies?</h3>
+                    <div class="faq-icon">+</div>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>200+ currencies and 300+ payment methods</strong> natively supported. Real-time FX rates with 0.01% spreads. SWIFT, SEPA, ACH, UPI, and blockchain rails all integrated with automatic compliance routing.</p>
+                    <div class="faq-meta">
+                        <span class="meta-tag global">Payments</span>
+                        <span class="meta-time">Updated 3 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="faq-question">
+                    <h3>What support do you provide?</h3>
+                    <div class="faq-icon">+</div>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>24/7 enterprise support</strong> with 15-minute SLA for critical issues. Dedicated account manager, custom SLAs, and on-site support available for Enterprise plans. 98% CSAT across 12K support tickets monthly.</p>
+                    <div class="faq-meta">
+                        <span class="meta-tag">Support</span>
+                        <span class="meta-time">Updated today</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Banner -->
+        <div class="faq-cta" data-aos="zoom-in" data-aos-delay="600">
+            <h3>Still have questions?</h3>
+            <p>Get personalized answers from our banking specialists</p>
+            <a href="./Pages/error.html" class="cta-btn">Contact Sales Team</a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer-og">
+    <div class="footer-og-inner">
+        <!-- Brand -->
+        <div class="footer-og-col">
+            <h3 class="footer-og-logo">Stackly</h3>
+            <p class="footer-og-text">
+                Stackly is amet metus et nisl fringilla fringilla sit amet molestie eros. Praesent
+                pretium, velit sit amet molestie elementum.
+            </p>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="footer-og-col">
+            <h4 class="footer-og-title">Useful Links</h4>
+            <ul class="footer-og-links">
+               <li><a href="./Pages/error.html">About</a></li>
+                <li><a href="./Pages/error.html">Service</a></li>
+                <li><a href="./Pages/error.html">Blog</a></li>
+                <li><a href="./Pages/error.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Visit Us -->
+        <div class="footer-og-col">
+            <h4 class="footer-og-title">Visit Us</h4>
+            <p class="footer-og-text">Salem</p>
+            <p class="footer-og-text">www.stackly.com</p>
+            <p class="footer-og-text">hello@stackly.com</p>
+            <p class="footer-og-text">+91 72134 30384</p>
+        </div>
+
+        <!-- Map -->
+        <div class="footer-og-col footer-og-map">
+            <h4 class="footer-og-title">Location</h4>
+             <iframe
+                class="map1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.1616097152896!2d78.1739798!3d11.682956599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babefef7fd970bb%3A0xe11aef1a71994f9!2sStackly!5e0!3m2!1sen!2sin!4v1757488188623!5m2!1sen!2sin"
+                width="100%"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+        </div>
+    </div>
+
+    <div class="footer-og-bottom">
+        <span>© 2026 All Rights Reserved</span>
+        <div class="footer-og-social">
+            <a href="./Pages/error.html" class="icon-fb" aria-label="Facebook" title="Facebook">f</a>
+                <a href="./Pages/error.html" class="icon-twitter" aria-label="Twitter" title="Twitter">𝕏</a>
+                <a href="./Pages/error.html" class="icon-linkedin" aria-label="LinkedIn" title="LinkedIn">in</a>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- Replace the JavaScript section with this fixed version -->
+<script>
+document.querySelectorAll('.faq-item').forEach(item => {
+    const question = item.querySelector('.faq-question');
+    
+    question.addEventListener('click', () => {
+        // Toggle active class on clicked item
+        item.classList.toggle('active');
+        
+        // Close all OTHER FAQs (not the clicked one)
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+            if (otherItem !== item) {
+                otherItem.classList.remove('active');
+            }
+        });
+    });
+});
+</script>
+
+
+    <script>
+        // Mobile menu
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+        const navbar = document.getElementById('navbar');
+
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Navbar scroll
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-link, .signin-btn').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+
+       <script>
+      AOS.init({
+        duration: 800,
+        once: false,
+        mirror: true,
+        offset: 100,
+      });
+    </script>
+    <script>
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
+
+
+  setTimeout(() => {
+    loader.style.opacity = "0";
+    loader.style.pointerEvents = "none";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 500);
+
+  }, 1000);
+});
+</script>
+</body>
+</html>
