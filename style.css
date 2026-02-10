@@ -2101,7 +2101,7 @@ body {
 
 .popular-badge {
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     left: 2rem;
     background: linear-gradient(135deg, #f97316, #fb923c);
     color: white;
